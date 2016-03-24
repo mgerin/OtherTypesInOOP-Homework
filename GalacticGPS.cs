@@ -11,6 +11,8 @@ namespace Problem01GalacticGPS
         {
             Location home = new Location(18.037986, 28.870097, Planet.Mars);
             Console.WriteLine(home);
+			Location otherPlanet = new Location(15.037986, 38.870054, Planet.Jupiter);
+			Console.WriteLine(otherPlanet);
         }
     }
 }
